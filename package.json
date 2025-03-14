@@ -1,0 +1,18 @@
+{
+  "name": "nova-api",
+  "private": true,
+  "scripts": {
+    "start": "nodemon -r dotenv/config index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "graphql-http": "^1.22.0",
+    "graphql": "^16.8.1",
+    "nodemon": "^3.0.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^9.0.1",
+    "decimal.js": "^10.4.3",
+    "dotenv": "^16.3.1"
+  }
+}
